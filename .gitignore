@@ -1,0 +1,40 @@
+# 가상환경
+venv/
+.venv/
+env/
+
+# Claude 설정
+.claude/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# 환경변수
+.env
+.env.*
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 모델 파일 (대용량)
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.h5
+*.pkl
+*.joblib
